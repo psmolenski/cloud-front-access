@@ -1,11 +1,11 @@
 #CloudFrontAccess
-Sample code that shows the differences between accessing AWS CloudFront Service using official AWS PHP SDK and dedicated class
+Sample code that shows differences between accessing AWS CloudFront Service using official AWS PHP SDK and dedicated class
 that was written based on offical CloudFront documentation.
 
 ##Project content
 In repository you will find 3 files:
 
-* composer.json - contains information about project depencies
+* composer.json - contains information about project dependencies
 * src/sdk.php - contains sample code that shows how to access CloudFront service using official AWS PHP SDK. Before executing the code make sure you have installed the SDK (see below for details)
 * src/CloudFrontClient.php - contains a sample class that enables to access CloudFront service without using the SDK
 
